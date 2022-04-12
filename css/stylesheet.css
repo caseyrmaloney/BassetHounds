@@ -1,0 +1,450 @@
+
+
+body{ 
+    margin: 0;
+    font-family: 'Anton';
+    
+
+}
+header{
+
+    background-color: #9AAB89;
+    text-align: center;
+    padding: 0px 0px ; 
+
+} 
+
+.icon { 
+    padding-top: 1%;
+    width: 55px; 
+}
+
+.topnavul{ 
+    display: inline-block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+
+}
+
+.topnavli{ 
+    display: inline-flex;
+    text-align: -webkit-match-parent;
+    padding: 20px 10px;
+}
+
+.topnav{ 
+    
+    background-color: #9AAB89;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.topnav a{ 
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 3px;
+}
+
+
+.nav-link{ 
+    display: inline-block; 
+    background-color: #9AAB89; 
+    width: 100px; 
+    padding: 5px; 
+    text-align: center; 
+
+ 
+
+}
+
+.section4-link{ 
+    text-decoration: none;
+    color: #6b7a5c ;
+
+}
+
+.section4-link:visited{ 
+    color: #6b7a5c;
+    
+}
+.section4-link:hover{ 
+    border: 3px solid #6b7a5c ; 
+    
+
+   
+
+
+} 
+
+
+
+
+
+
+.section-1{ 
+    background-image: url(../images/basset.jpeg);
+    height: 100vh;
+    background-size: cover;
+
+    /*centering the title in the middle*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{ 
+    color: white; 
+    font-size: 55px; 
+    padding-top: 0%;
+    
+} 
+
+.bumper{ 
+ 
+    background-color: #9AAB89;
+    text-align: center;
+    font-size: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+
+/* not using floats */ 
+/* display inline text for the invidiual items and display flex for parent items*/ 
+
+
+/* parent items to the images and paragraphs */
+.column { 
+    display: flex;
+    padding: 60px 60px;
+}
+
+
+/* images  */
+/* .wrapper{ 
+    display: inline-block;
+
+} */
+
+/* titles  */
+
+h2{ 
+    display: inline-block;
+    padding: 0px 20px;
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+p{ 
+    display: inline-block;
+    padding: 0px  20px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Barlow';
+
+}
+
+footer{ 
+    background-color: #9AAB89;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+/* SECTIONS INVIVIDUAL ITEMS */
+
+.section-2{ 
+   
+    text-align: center;
+    
+
+
+}
+
+.section-3{ 
+    background-color: #9AAB89;
+    text-align: center;
+    
+
+
+}
+.section-4{ 
+    
+    text-align: center;
+
+}
+
+
+.picture2{ 
+    width:80vh;
+    height: 60vh; 
+    
+}
+
+.pictures3{ 
+    width: 70vh;
+    height: 60vh; 
+    
+   
+} 
+
+.pictures4{ 
+    width: 70vh;
+    height: 50vh; 
+} 
+
+
+/* BASSET HOUND SECOND PAGE  */
+
+.Basset-sec1{ 
+
+    background-image: url(../images/puppies.png);
+    height: 110vh;
+    background-size: cover;
+
+    /*centering the title in the middle*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* adding padding to title2  because center is directly in the middle of their face */
+
+.title2{ 
+    padding-top: 80px;
+}
+
+.bassetpic{ 
+    width:90vh;
+    height: 60vh; 
+    
+}
+
+
+.bassetsec2-title{ 
+   text-align: center;
+}
+
+
+.list{ 
+    background-color: #9AAB89;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list1{ 
+    display: inline-block;
+    
+    font-size: 12px ;
+}
+
+.list2{ 
+    display: inline-block;
+   
+    font-size: 12px ;
+}
+
+.list3{ 
+    display: inline-block;
+    
+    font-size: 12px ;
+}
+
+
+
+.sec4img{ 
+    width: 100vh;
+    height: 70vh; 
+    display: inline-block;
+
+}
+
+
+
+blockquote{ 
+    font-size: 40px;
+    padding-top: 100px;
+    text-align: center;
+    display: inline-block
+}
+
+.sec4-bass{ 
+    display: flex; 
+
+}
+
+
+
+.list{ 
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .section-1{ 
+    background-image: url(../images/basset.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* height property added*/
+   /* height: 90vh;
+    background-color: #9AAB89;
+   
+} 
+
+  
+
+
+h1{ 
+    font-size: 0px;
+    display: inline-block; 
+
+}
+
+.title {
+    color: white; 
+    font-size: 55px; 
+    padding-top: 0%;
+    how to get text align to work with inline-block 
+    text-align: right;
+    /*text align didnt work- best fix was to add padding*/ 
+    /* padding-left: 40%;
+     */
+
+     /*
+}
+
+.bumper{ 
+    display: inline-block; 
+    background-color: #9AAB89;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 25%;
+
+    
+
+}
+.pictures2{ 
+    width: 70vh;
+    height: 50vh; 
+    float: left; 
+    padding-left: 10%;   
+    padding-top: 10%;  
+}
+
+.sec2-title{ 
+    padding-right: 10%;
+    float: right;
+
+}
+
+.sec2-info{ 
+    padding-right: 10%;
+    padding-left: 50%;
+    font-size: 18px;
+    padding-top: 5%;
+  
+
+}
+
+.pictures3{ 
+    width: 70vh;
+    height: 60vh; 
+    float: right; 
+    padding-right: 10%;    
+}
+
+.sec3-title{ 
+    padding-left: 10%;
+
+}
+
+.sec3-info{ 
+    padding-left: 10%;
+    padding-right: 50%;
+    font-size: 18px;
+}
+.pictures4{ 
+    width: 70vh;
+    height: 50vh; 
+    float: left; 
+    padding-left: 10%;   
+     
+}
+
+.sec4-title{ 
+    padding-right: 10%;
+    float: right;
+
+}
+
+.sec4-info{ 
+    padding-right: 10%;
+    padding-left: 50%;
+    font-size: 18px;
+    padding-top: 5%;
+  
+
+}
+
+.column{ 
+    overflow: hidden;
+}
+
+
+.section4-link{ 
+    text-decoration: none;
+    color: white
+
+}
+
+.section4-link:visited{ 
+    color: white;
+    
+}
+.section4-link:hover{ 
+    border: 3px solid white; 
+    
+
+   
+
+
+} 
+*/ 
+
+
